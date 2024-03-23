@@ -1,0 +1,18 @@
+/* stylize page */
+:root{
+    --bg-grey: #333333;
+    --bg-lavender: #6d3d6d;
+    --text-grey: #eeeeee;
+}
+
+body{
+    background-color: var(--bg-lavender);
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3{
+    color: var(--text-grey);
+    font-family: "Smythe", system-ui;
+    font-style: normal;
+}
